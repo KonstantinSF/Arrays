@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numerics", "Numerics\Numeri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2D", "2D\2D.vcxproj", "{628C51CB-96DE-4396-A447-107BB7CEEC30}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matrix_2D_sort", "Matrix_2D_sort\Matrix_2D_sort.vcxproj", "{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{628C51CB-96DE-4396-A447-107BB7CEEC30}.Release|x64.Build.0 = Release|x64
 		{628C51CB-96DE-4396-A447-107BB7CEEC30}.Release|x86.ActiveCfg = Release|Win32
 		{628C51CB-96DE-4396-A447-107BB7CEEC30}.Release|x86.Build.0 = Release|Win32
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Debug|x64.ActiveCfg = Debug|x64
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Debug|x64.Build.0 = Debug|x64
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Debug|x86.Build.0 = Debug|Win32
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Release|x64.ActiveCfg = Release|x64
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Release|x64.Build.0 = Release|x64
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Release|x86.ActiveCfg = Release|Win32
+		{A96A8DB6-9AC0-4962-A46F-7F4B8362323B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
