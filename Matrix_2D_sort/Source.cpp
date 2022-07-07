@@ -9,6 +9,7 @@ void main()
 	const int COLS = 3;
 	const int ROWS = 3;
 	int A[ROWS][COLS] = {};
+	int Buffer[ROWS * COLS] = {};
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -25,4 +26,19 @@ void main()
 		cout << endl;
 	}
 	cout << delimiter;
+	int k = 0;
+		for (int i = 0; i < ROWS; i++)
+		{
+			for (int j = 0; j < COLS; j++)
+			{
+				Buffer[k] = A[i][j];
+				k++;
+			}
+		}
+		for (int i = 0; i < k; i++)
+		{
+			cout << Buffer[i] << tab; 
+		}
+		cout << endl<< delimiter;
+
 }
