@@ -9,7 +9,7 @@ void main()
 	const int COLS = 3;
 	const int ROWS = 3;
 	int A[ROWS][COLS] = {};
-	int Buffer[ROWS * COLS] = {};//буфферный линейный массив
+	int Buffer[ROWS * COLS] = {};//буфферный линейный массив размера Nстрок*Nстолбцов
 	for (int i = 0; i < ROWS; i++)//заполнение двумерного массива случ числами
 	{
 		for (int j = 0; j < COLS; j++)
