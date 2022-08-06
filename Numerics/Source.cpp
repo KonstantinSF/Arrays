@@ -2,7 +2,7 @@
 using namespace std;
 //#define DEC_TO_BIN
 //#define REPEAT_NUM
-#define REPEAT_NUM1
+//#define REPEAT_NUM1
 void main()
 {
 	setlocale(LC_ALL, "");
